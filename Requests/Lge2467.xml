@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tns:Envelope xmlns:star="http://www.starstandards.org/STAR" xmlns:star1="http://www.starstandards.org/STAR1" xmlns:r1="http://www.routeone.com/namespace/2/0/namespace.messaging.CreditApplication#" xmlns:tns="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP:Header xmlns:SOAP-SEC="http://schemas.xmlsoap.org/soap/security/2000-12" xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-SEC:Signature MustUnderstand="1">
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+          <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+          <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+          <Reference URI="#Body">
+            <Transforms>
+              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>eK2pPCS++Xa6LUcgXQd9++zlU4IGCEWal5gH4LAIJH0=</DigestValue>
+          </Reference>
+        </SignedInfo>
+        <SignatureValue>TrQZL15WBETs1aCCSH3IH1iY/7uLUbDiK5BEVHDIh4HR5qSioiO99hn/ZvWpUlA7sbocI4WDrpGCQKBrJyTHi6WVdXMs4yBbG7iaRowe2YhgXefbi9UjTNlW9Rvoc1UbmCle8hDplkmmVzqx0vtq0gPZfPzLjhrPT/iO9CkxCXk=</SignatureValue>
+        <KeyInfo>
+          <X509Data>
+            <X509IssuerSerial>
+              <X509IssuerName>CN=Sync1 R1 Server</X509IssuerName>
+              <X509SerialNumber>124372663</X509SerialNumber>
+            </X509IssuerSerial>
+          </X509Data>
+        </KeyInfo>
+      </Signature>
+    </SOAP-SEC:Signature>
+  </SOAP:Header>
+  <tns:Body id="Body">
+    <star:ProcessCreditDecision>
+      <star:ApplicationArea>
+        <star:Sender>
+          <star:LogicalId>https://www.lgeccu.org</star:LogicalId>
+          <star:Component>LOS</star:Component>
+          <star:Task>CreditDecision</star:Task>
+          <star:CreatorNameCode>LGE Community Credit Union</star:CreatorNameCode>
+          <star:SenderNameCode>XX</star:SenderNameCode>
+        </star:Sender>
+        <star:CreationDateTime>2019-08-28T13:19:58.1530516+00:00</star:CreationDateTime>
+        <star:Destination>
+          <star:DestinationNameCode>RO</star:DestinationNameCode>
+        </star:Destination>
+      </star:ApplicationArea>
+      <star:DataArea>
+        <star:Process confirm="Always" acknowledge="Always" />
+        <star:CreditDecision>
+          <star:Header>
+            <star:DocumentDateTime>2019-08-28T13:13:59.0000000+00:00</star:DocumentDateTime>
+            <star:DocumentId>01-1-92122850</star:DocumentId>
+            <star:FinanceCompany>
+              <star:PartyId>F0SY05</star:PartyId>
+              <star:Name>LGE Community Credit Union</star:Name>
+              <star:Contact>
+                <star:PersonName>
+                  <star:FormattedName>Sylwia Plata</star:FormattedName>
+                  <star:EmployeeTitle>Primary Credit Analyst</star:EmployeeTitle>
+                </star:PersonName>
+                <star:Telephone desc="Day Phone" />
+              </star:Contact>
+            </star:FinanceCompany>
+            <star:Dealer>
+              <star:PartyId>VW5DQ</star:PartyId>
+              <star:OrganizationId>1234</star:OrganizationId>
+            </star:Dealer>
+            <star:ApplicationStatus>OT</star:ApplicationStatus>
+            <star:ApplicationNumber>2467</star:ApplicationNumber>
+          </star:Header>
+          <star:Detail>
+            <star:IndividualApplicant>
+              <star:CreditReportInformation>
+                <star:CreditReportSource>EQ</star:CreditReportSource>
+                <star:CreditReportRiskModel>FICO Auto 5-EFX-F</star:CreditReportRiskModel>
+                <star:CreditReportScore>471</star:CreditReportScore>
+              </star:CreditReportInformation>
+            </star:IndividualApplicant>
+            <star:Decision>
+              <star:SubmittedDateTime>2019-08-28T13:19:58.1526573+00:00</star:SubmittedDateTime>
+              <star:DecisionDateTime>2019-08-28T13:19:57.1961038+00:00</star:DecisionDateTime>
+              <star:Financing>
+                <star:FinanceType>1</star:FinanceType>
+                <star:PaymentAmount currency="USD">408.84</star:PaymentAmount>
+                <star:BalanceAmount currency="USD">25385</star:BalanceAmount>
+                <star:ResidualAmount currency="USD">0</star:ResidualAmount>
+                <star:Term length="Months">72</star:Term>
+                <star:AnnualPercentageRate>3</star:AnnualPercentageRate>
+                <star:ContractRate>5</star:ContractRate>
+              </star:Financing>
+              <star:Tier>E</star:Tier>
+              <star:Stipulations>All Approvals Subject to Verification of Information at Time of Funding</star:Stipulations>
+              <star:Stipulations>All Approvals and Packages Must Meet Program Guidelines, Rates and Terms (Refer to Rate Sheet)</star:Stipulations>
+              <star:Stipulations>Membership App Required for Non Members</star:Stipulations>
+              <star:Stipulations>Back End (exluding LGE Gap) not to exceed $4K </star:Stipulations>
+              <star:Stipulations>Subject to Letter of Guarantee for Out of State Title</star:Stipulations>
+            </star:Decision>
+          </star:Detail>
+        </star:CreditDecision>
+      </star:DataArea>
+    </star:ProcessCreditDecision>
+    <star1:AcknowledgeCreditContractResponse>
+      <star1:ApplicationArea>
+        <star1:Sender>
+          <star1:LogicalId>https://www.lgeccu.org</star1:LogicalId>
+          <star1:Component>LOS</star1:Component>
+          <star1:Task>CreditContractResponse</star1:Task>
+          <star1:CreatorNameCode>LGE Community Credit Union</star1:CreatorNameCode>
+          <star1:SenderNameCode>XX</star1:SenderNameCode>
+          <star1:DeliverPendingMailInd>Item0</star1:DeliverPendingMailInd>
+        </star1:Sender>
+        <star1:CreationDateTime>2019-08-28T13:19:58.1530516+00:00</star1:CreationDateTime>
+        <star1:Destination>
+          <star1:DestinationNameCode>RO</star1:DestinationNameCode>
+        </star1:Destination>
+      </star1:ApplicationArea>
+      <star1:DataArea>
+        <star1:Acknowledge confirm="Always" />
+        <star1:CreditContractResponse>
+          <star1:Header>
+            <star1:FinanceType>1</star1:FinanceType>
+            <star1:FundingStatus>RECEIVED</star1:FundingStatus>
+          </star1:Header>
+          <star1:FinanceCompany>
+            <star1:PartyId>F0SY05</star1:PartyId>
+            <star1:Name>LGE Community Credit Union</star1:Name>
+            <star1:Contact>
+              <star1:PersonName>
+                <star1:FormattedName>Sylwia Plata</star1:FormattedName>
+                <star1:EmployeeTitle>Primary Credit Analyst</star1:EmployeeTitle>
+              </star1:PersonName>
+              <star1:Telephone desc="Day Phone" />
+            </star1:Contact>
+          </star1:FinanceCompany>
+          <star1:Financing>
+            <star1:FunderComments>Current Paystub Within Last 30 Days Needed</star1:FunderComments>
+            <star1:FunderComments>Copy of MV1 needed</star1:FunderComments>
+            <star1:FunderComments>Credit Application Completed &amp; Signed Needed</star1:FunderComments>
+            <star1:FunderComments>All Approvals and Packages Must Meet Program Guidelines, Rates and Terms (Refer to Rate Sheet)</star1:FunderComments>
+            <star1:BookingDate p10:nil="true" xmlns:p10="http://www.w3.org/2001/XMLSchema-instance" />
+          </star1:Financing>
+        </star1:CreditContractResponse>
+      </star1:DataArea>
+    </star1:AcknowledgeCreditContractResponse>
+    <r1:RouteOne version="2.0">
+      <r1:SenderID>F0SY05</r1:SenderID>
+      <r1:TargetID>FS000</r1:TargetID>
+      <r1:ConversationID>01-1-92122850</r1:ConversationID>
+      <r1:SentTimeStamp>2019-08-28T16:54:57.4552161+00:00</r1:SentTimeStamp>
+      <r1:MessageType>CreditAppTextMessage</r1:MessageType>
+      <r1:SequenceNo>5</r1:SequenceNo>
+      <r1:MessageIdentifier>
+        <r1:CreditAppTextMessage>
+          <r1:CoBuyerVersionNumber>0</r1:CoBuyerVersionNumber>
+        </r1:CreditAppTextMessage>
+      </r1:MessageIdentifier>
+    </r1:RouteOne>
+  </tns:Body>
+</tns:Envelope>

@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<XAPI xmlns="x-schema:phoenix.xapi">
+	<SERVICE_INFO>
+		<Id>1010</Id>
+	</SERVICE_INFO>
+	<USER_INFO>
+		<EmplId>1</EmplId>
+	</USER_INFO>
+	<DB_ACTION>
+		<TRAN_INFO>
+			<Description>TEST002-10000</Description>
+			<ReferenceNo>TEST002</ReferenceNo>
+			<XapiTranCode>10000</XapiTranCode>
+		</TRAN_INFO>
+		<RM_ACCT>
+			<New></New>
+			<RimNo DefaultAs = "RimNo1"></RimNo>
+			<ClassCode>1</ClassCode>
+			<LastName>Last_Name_ORCC_Test</LastName>
+			<RimType>Personal</RimType>
+			<BirthDt>1955-04-16</BirthDt>
+			<BranchNo>1</BranchNo>
+			<CityOfBirth>Kirkland, WA</CityOfBirth>
+			<FirstName>First_Name_ORCC_Test</FirstName>
+			<MiddleInitial>N</MiddleInitial>
+			<MotherMaidenName >Crxxx</MotherMaidenName>
+			<RsmId>1</RsmId>
+			<Tin>123-87-9762</Tin>
+			<TinFormat>S</TinFormat>
+		</RM_ACCT>
+		<RM_PERSONAL_INFO>
+			<New></New>
+			<RimNo DefaultFrom = "RimNo1"></RimNo>
+			<Empl>N/A</Empl>
+		</RM_PERSONAL_INFO>
+		<RM_ADDRESS>
+			<New></New>
+			<RimNo DefaultFrom = "RimNo1"></RimNo>
+			<AddrTypeId>1</AddrTypeId>
+			<AddressLine1>1234 Any Street</AddressLine1>
+			<City>Kirkland</City>
+			<State>WA</State>
+			<Zip>98251</Zip>
+			<Phone1>(206) 555-1111</Phone1>
+			<International>N</International>
+			<Phone1DefFormat>Y</Phone1DefFormat>
+			<Phone2DefFormat>Y</Phone2DefFormat>
+			<Phone3DefFormat>Y</Phone3DefFormat>
+			<FaxDefFormat>Y</FaxDefFormat>
+			<PagerDefFormat>Y</PagerDefFormat>
+			<CountryCode>USA</CountryCode>
+		</RM_ADDRESS>
+	</DB_ACTION>
+</XAPI>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<XAPI_RESPONSE>
+	<RESPONSE>
+		<RECORD>
+			<RM_ACCT>
+				<ReturnCode>0</ReturnCode>
+				<RimNo>11631</RimNo>
+			</RM_ACCT>
+			<RM_PERSONAL_INFO>
+				<ReturnCode>0</ReturnCode>
+			</RM_PERSONAL_INFO>
+			<RM_ADDRESS>
+				<ReturnCode>0</ReturnCode>
+			</RM_ADDRESS>
+		</RECORD>
+		<Sequence>1</Sequence>
+		<ReferenceNo>0304075006002</ReferenceNo>
+		<XapiTranCode>10000</XapiTranCode>
+		<ReturnCode>0</ReturnCode>
+		<OvrdInfo1 /><OvrdInfo2 />
+		<PostingMethod>R</PostingMethod>
+		<LogPTID>4554817</LogPTID>
+	</RESPONSE>
+	<Rc>0</Rc>
+	<SQL>0</SQL>
+	<XmDbStatus>D</XmDbStatus>
+	<PrimDbAvailable>1</PrimDbAvailable>
+	<HRESULT>0</HRESULT>
+</XAPI_RESPONSE>
