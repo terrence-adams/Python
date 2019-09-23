@@ -1,0 +1,36 @@
+{
+  "clientTransactionId": "sdkjfbwieuht293vtyn&q9awevw3gw4y",
+  "creditBureau": {
+    "Name": "TransUnion",
+    "Abbreviation": "TU",
+    "Subscriber": {
+        "VendorNumber": null,
+        "VendorVersion": null,
+        "SubCode": null,
+        "AccountId": "0622Z1874855",
+        "Password": "N145",
+        "IndustryCode": null,
+        "MemberCode": null,
+        "SecurityCode": null,
+        "InquirySubscriberPrefixCode": null,
+        "LoginCredentials": null
+    }
+  },
+  "primaryApplicant": {
+    "FirstName": "CATHERINE",
+        "LastName": "Crow",
+        "SocialSecurityNumber": "666-93-1775",
+        "IsPrimary": true,
+        "Dob": "1987-01-28T00:00:00-05:00",
+        "Addresses": [
+            {
+                "AddressLine1": "17803 MARBLE HILL PL",
+                "AddressLine2": "",
+                "City": "GERMANTOWN",
+                "State": "MD",
+                "Zip": "20874",
+                "IsCurrent": true
+            },
+        ],
+    }
+}
