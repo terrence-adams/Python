@@ -1,0 +1,30 @@
+{
+    "PrimaryApplicant": {
+        "PhoneNumbers": null,
+        "Addresses": [{
+            "City": "Elizabethton",
+            "Zip": "37643",
+            "State": "TN",
+            "AddressLine2": null,
+            "IsCurrent": true,
+            "AddressLine1": "115 Hubbard Drive"
+        }],
+        "FirstName": "Francisca",
+        "MiddleName": "",
+        "LastName": "Gonzalez",
+        "Dob": "1950-09-03T00:00:00Z",
+        "SocialSecurityNumber": "666-79-5320",
+        "Employments": [],
+        "IsPrimary": true
+    },
+    "CreditBureau": {
+        "Subscriber": {
+            "Password": "SX56",
+            "Id": 0,
+            "AccountId": "0622Q6376353"
+        },
+        "Abbrv": "TU",
+        "Name": "TransUnion"
+    },
+    "returnRawData": true
+}

@@ -1,0 +1,703 @@
+{
+    "report": {
+        "applicants": [
+            {
+                "addresses": [
+                    {
+                        "addressLine1": "115 HUBBARD DR",
+                        "city": "ELIZABETHTON",
+                        "isCurrent": true,
+                        "state": "TN",
+                        "zip": "37643"
+                    },
+                    {
+                        "addressLine1": "141 HUBBARD DR",
+                        "city": "ELIZABETHTON",
+                        "state": "TN",
+                        "zip": "37643"
+                    },
+                    {
+                        "addressLine1": "11 RR 11 BOX 1882",
+                        "city": "ELIZABETHTON",
+                        "state": "TN",
+                        "zip": "37643"
+                    }
+                ],
+                "creditReport": {
+                    "bankruptcies": [],
+                    "collections": [],
+                    "creditBureauResponseCode": 1,
+                    "creditReportTradelines": [
+                        {
+                            "accountNumber": "6X0X0X0X3X8X7X",
+                            "accountTypeCode": "00",
+                            "accountTypeName": "Auto Loan",
+                            "closedIndicator": "normal",
+                            "creditor": {
+                                "code": "06331204",
+                                "industry": "Bank Miscellaneous",
+                                "industryCode": "B",
+                                "name": "BK OF AMER"
+                            },
+                            "currentBalance": 11582,
+                            "dateClosed": {
+                                "value": "2015-09-30T00:00:00Z"
+                            },
+                            "dateOpened": {
+                                "value": "2014-02-16T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2017-03-31T00:00:00Z"
+                            },
+                            "ecoa": "Individual",
+                            "highCredit": 16297,
+                            "isDerogatory": true,
+                            "isOpen": false,
+                            "mostRecentPaymentDate": {
+                                "value": "2015-11-17T00:00:00Z"
+                            },
+                            "pastDue": 11582,
+                            "paymentFrequency": "Monthly",
+                            "paymentPattern": "",
+                            "paymentScheduleMonthCount": "1",
+                            "paymentStatus": "Charged off as bad debt",
+                            "portfolioType": 1,
+                            "remarks": [
+                                null
+                            ],
+                            "tradelineStatus": 12,
+                            "tradelineStatusCode": "97",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "6697",
+                            "accountTypeCode": "0G",
+                            "accountTypeName": "Flexible Spending Credit Card",
+                            "creditor": {
+                                "code": "01597029",
+                                "industry": "Bank Miscellaneous",
+                                "industryCode": "B",
+                                "name": "BK OF AMER"
+                            },
+                            "currentBalance": 2631,
+                            "dateOpened": {
+                                "value": "2001-11-21T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2019-09-18T00:00:00Z"
+                            },
+                            "ecoa": "Authorized User",
+                            "highCredit": 7676,
+                            "isOpen": true,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthlyPayment": 47,
+                            "monthsReviewed": 25,
+                            "mostRecentPaymentDate": {
+                                "value": "2019-09-06T00:00:00Z"
+                            },
+                            "pastDue": 0,
+                            "paymentPattern": "CCCCCCCCCCCCCCCCCCCCCCCCC",
+                            "paymentScheduleMonthCount": "MIN",
+                            "paymentStartDate": {
+                                "value": "2019-08-18T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 2,
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "546683236391",
+                            "accountTypeCode": "18",
+                            "accountTypeName": "Credit Card",
+                            "creditLimit": 9500,
+                            "creditor": {
+                                "code": "0235060H",
+                                "industry": "Bank Miscellaneous",
+                                "industryCode": "B",
+                                "name": "SYNCB/JCP DC"
+                            },
+                            "currentBalance": 1825,
+                            "dateOpened": {
+                                "value": "2013-01-06T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2019-08-31T00:00:00Z"
+                            },
+                            "ecoa": "Joint",
+                            "highCredit": 2648,
+                            "isOpen": true,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthlyPayment": 53,
+                            "monthsReviewed": 48,
+                            "mostRecentPaymentDate": {
+                                "value": "2019-08-12T00:00:00Z"
+                            },
+                            "pastDue": 0,
+                            "paymentPattern": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                            "paymentScheduleMonthCount": "MIN",
+                            "paymentStartDate": {
+                                "value": "2019-07-31T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 2,
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "0339",
+                            "accountTypeCode": "0G",
+                            "accountTypeName": "Flexible Spending Credit Card",
+                            "closedIndicator": "normal",
+                            "creditor": {
+                                "code": "01597029",
+                                "industry": "Bank Miscellaneous",
+                                "industryCode": "B",
+                                "name": "BK OF AMER"
+                            },
+                            "currentBalance": 0,
+                            "dateClosed": {
+                                "value": "2018-08-21T00:00:00Z"
+                            },
+                            "dateOpened": {
+                                "value": "2001-11-21T00:00:00Z"
+                            },
+                            "datePaidOut": {
+                                "value": "2018-07-11T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2018-08-21T00:00:00Z"
+                            },
+                            "ecoa": "Authorized User",
+                            "highCredit": 7676,
+                            "isOpen": false,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthsReviewed": 48,
+                            "mostRecentPaymentDate": {
+                                "value": "2018-07-11T00:00:00Z"
+                            },
+                            "pastDue": 0,
+                            "paymentPattern": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                            "paymentStartDate": {
+                                "value": "2018-07-21T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 2,
+                            "remarks": [
+                                null
+                            ],
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "7X8X9X0X",
+                            "accountTypeCode": "26",
+                            "accountTypeName": "Conventional Real Estate Loan",
+                            "closedIndicator": "normal",
+                            "creditor": {
+                                "code": "0427S002",
+                                "industry": "Bank Miscellaneous",
+                                "industryCode": "B",
+                                "name": "BANKAMERICA"
+                            },
+                            "currentBalance": 0,
+                            "dateClosed": {
+                                "value": "2018-07-08T00:00:00Z"
+                            },
+                            "dateOpened": {
+                                "value": "2010-05-25T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2018-07-08T00:00:00Z"
+                            },
+                            "ecoa": "Joint",
+                            "highCredit": 69000,
+                            "isOpen": false,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthlyPayment": 550,
+                            "monthsReviewed": 42,
+                            "pastDue": 0,
+                            "paymentFrequency": "Monthly",
+                            "paymentPattern": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                            "paymentScheduleMonthCount": "180",
+                            "paymentStartDate": {
+                                "value": "2018-06-08T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 5,
+                            "remarks": [
+                                null
+                            ],
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "3722",
+                            "accountTypeCode": "18",
+                            "accountTypeName": "Credit Card",
+                            "creditLimit": 7000,
+                            "creditor": {
+                                "code": "06331059",
+                                "industry": "Bank Miscellaneous",
+                                "industryCode": "B",
+                                "name": "BANKAMERICA"
+                            },
+                            "currentBalance": 0,
+                            "dateOpened": {
+                                "value": "2008-10-12T00:00:00Z"
+                            },
+                            "datePaidOut": {
+                                "value": "2010-08-01T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2015-04-07T00:00:00Z"
+                            },
+                            "ecoa": "Individual",
+                            "highCredit": 6210,
+                            "isOpen": true,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthsReviewed": 48,
+                            "mostRecentPaymentDate": {
+                                "value": "2010-08-07T00:00:00Z"
+                            },
+                            "pastDue": 0,
+                            "paymentPattern": "77777777777CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                            "paymentStartDate": {
+                                "value": "2015-03-07T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 2,
+                            "remarks": [
+                                null
+                            ],
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "5X4X0X0X7X7X9",
+                            "accountTypeCode": "26",
+                            "accountTypeName": "Conventional Real Estate Loan",
+                            "closedIndicator": "normal",
+                            "creditor": {
+                                "code": "024CK001",
+                                "industry": "Finance Miscellaneous",
+                                "industryCode": "F",
+                                "name": "NETBANK"
+                            },
+                            "currentBalance": 0,
+                            "dateClosed": {
+                                "value": "2015-01-07T00:00:00Z"
+                            },
+                            "dateOpened": {
+                                "value": "2010-05-25T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2015-01-07T00:00:00Z"
+                            },
+                            "ecoa": "Joint",
+                            "highCredit": 69000,
+                            "isOpen": false,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthlyPayment": 550,
+                            "monthsReviewed": 48,
+                            "mostRecentPaymentDate": {
+                                "value": "2014-12-11T00:00:00Z"
+                            },
+                            "pastDue": 0,
+                            "paymentFrequency": "Monthly",
+                            "paymentPattern": "CCCCCCCCCCCCCCCCCCCCCCCC7C777CCCCCCCCCCCCCC7CCCC",
+                            "paymentScheduleMonthCount": "180",
+                            "paymentStartDate": {
+                                "value": "2014-12-07T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 5,
+                            "remarks": [
+                                null
+                            ],
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "11800229",
+                            "accountTypeCode": "07",
+                            "accountTypeName": "Charge Account",
+                            "closedIndicator": "normal",
+                            "creditLimit": 1100,
+                            "creditor": {
+                                "code": "0479N007",
+                                "industry": "Department Store Miscellaneous",
+                                "industryCode": "D",
+                                "name": "CEDARHILLNBK"
+                            },
+                            "currentBalance": 0,
+                            "dateClosed": {
+                                "value": "2014-06-30T00:00:00Z"
+                            },
+                            "dateOpened": {
+                                "value": "1998-02-04T00:00:00Z"
+                            },
+                            "datePaidOut": {
+                                "value": "2012-05-08T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2014-07-31T00:00:00Z"
+                            },
+                            "ecoa": "Individual",
+                            "highCredit": 278,
+                            "isOpen": false,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthsReviewed": 48,
+                            "mostRecentPaymentDate": {
+                                "value": "2012-05-08T00:00:00Z"
+                            },
+                            "pastDue": 0,
+                            "paymentPattern": "C777777777777777777777777CCCCCCCCC7777CCCCC7CC",
+                            "paymentStartDate": {
+                                "value": "2014-06-30T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 2,
+                            "remarks": [
+                                null
+                            ],
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "1X0X0X0X2X8",
+                            "accountTypeCode": "3A",
+                            "accountTypeName": "Auto Lease",
+                            "closedIndicator": "normal",
+                            "creditor": {
+                                "code": "0814D089",
+                                "industry": "Bank Miscellaneous",
+                                "industryCode": "B",
+                                "name": "HNB LEASING"
+                            },
+                            "currentBalance": 0,
+                            "dateClosed": {
+                                "value": "2014-03-26T00:00:00Z"
+                            },
+                            "dateOpened": {
+                                "value": "2008-10-27T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2014-03-26T00:00:00Z"
+                            },
+                            "ecoa": "Individual",
+                            "highCredit": 21048,
+                            "isOpen": false,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthlyPayment": 318,
+                            "monthsReviewed": 24,
+                            "mostRecentPaymentDate": {
+                                "value": "2014-03-26T00:00:00Z"
+                            },
+                            "pastDue": 0,
+                            "paymentFrequency": "Monthly",
+                            "paymentPattern": "C7CC7777C77CCC7CCCCCCCCC",
+                            "paymentScheduleMonthCount": "66",
+                            "paymentStartDate": {
+                                "value": "2014-02-26T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 1,
+                            "remarks": [
+                                null
+                            ],
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "1X0X0X0X1X5",
+                            "accountTypeCode": "3A",
+                            "accountTypeName": "Auto Lease",
+                            "closedIndicator": "normal",
+                            "creditor": {
+                                "code": "0814D089",
+                                "industry": "Bank Miscellaneous",
+                                "industryCode": "B",
+                                "name": "HNB LEASING"
+                            },
+                            "currentBalance": 0,
+                            "dateClosed": {
+                                "value": "2014-02-19T00:00:00Z"
+                            },
+                            "dateOpened": {
+                                "value": "2010-08-25T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2014-02-19T00:00:00Z"
+                            },
+                            "ecoa": "Joint",
+                            "highCredit": 18546,
+                            "isOpen": false,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthlyPayment": 281,
+                            "monthsReviewed": 41,
+                            "mostRecentPaymentDate": {
+                                "value": "2014-02-19T00:00:00Z"
+                            },
+                            "pastDue": 0,
+                            "paymentFrequency": "Monthly",
+                            "paymentPattern": "7CC7777C77CCC7CCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                            "paymentScheduleMonthCount": "66",
+                            "paymentStartDate": {
+                                "value": "2014-01-19T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 1,
+                            "remarks": [
+                                null
+                            ],
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "600886515552",
+                            "accountTypeCode": "07",
+                            "accountTypeName": "Charge Account",
+                            "closedIndicator": "normal",
+                            "creditLimit": 1000,
+                            "creditor": {
+                                "code": "0235058D",
+                                "industry": "Department Store Miscellaneous",
+                                "industryCode": "D",
+                                "name": "SYNCB/JCP"
+                            },
+                            "currentBalance": 0,
+                            "dateClosed": {
+                                "value": "2013-03-31T00:00:00Z"
+                            },
+                            "dateOpened": {
+                                "value": "1991-04-08T00:00:00Z"
+                            },
+                            "datePaidOut": {
+                                "value": "2011-02-25T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2013-03-31T00:00:00Z"
+                            },
+                            "ecoa": "Joint",
+                            "highCredit": 538,
+                            "isOpen": false,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthsReviewed": 48,
+                            "mostRecentPaymentDate": {
+                                "value": "2011-02-25T00:00:00Z"
+                            },
+                            "pastDue": 0,
+                            "paymentPattern": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                            "paymentStartDate": {
+                                "value": "2013-02-28T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 2,
+                            "remarks": [
+                                null
+                            ],
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "542416049823",
+                            "accountTypeCode": "18",
+                            "accountTypeName": "Credit Card",
+                            "closedIndicator": "normal",
+                            "creditLimit": 4800,
+                            "creditor": {
+                                "code": "064DB002",
+                                "industry": "Bank Miscellaneous",
+                                "industryCode": "B",
+                                "name": "CITI"
+                            },
+                            "currentBalance": 0,
+                            "dateClosed": {
+                                "value": "2013-01-31T00:00:00Z"
+                            },
+                            "dateOpened": {
+                                "value": "2008-07-01T00:00:00Z"
+                            },
+                            "datePaidOut": {
+                                "value": "2010-08-01T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2013-03-07T00:00:00Z"
+                            },
+                            "ecoa": "Individual",
+                            "isOpen": false,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthsReviewed": 48,
+                            "mostRecentPaymentDate": {
+                                "value": "2010-08-05T00:00:00Z"
+                            },
+                            "pastDue": 0,
+                            "paymentPattern": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                            "paymentStartDate": {
+                                "value": "2013-02-07T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 2,
+                            "remarks": [
+                                null
+                            ],
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        },
+                        {
+                            "accountNumber": "2X2X7X2",
+                            "accountTypeCode": "26",
+                            "accountTypeName": "Conventional Real Estate Loan",
+                            "closedIndicator": "normal",
+                            "creditor": {
+                                "code": "0427S002",
+                                "industry": "Bank Miscellaneous",
+                                "industryCode": "B",
+                                "name": "BANKAMERICA"
+                            },
+                            "currentBalance": 0,
+                            "dateClosed": {
+                                "value": "2010-06-01T00:00:00Z"
+                            },
+                            "dateOpened": {
+                                "value": "2003-12-01T00:00:00Z"
+                            },
+                            "dateReported": {
+                                "value": "2010-06-01T00:00:00Z"
+                            },
+                            "ecoa": "Joint",
+                            "highCredit": 56500,
+                            "isOpen": false,
+                            "late30DaysTotal": 0,
+                            "late60DaysTotal": 0,
+                            "late90DaysTotal": 0,
+                            "monthlyPayment": 490,
+                            "monthsReviewed": 33,
+                            "pastDue": 0,
+                            "paymentFrequency": "Monthly",
+                            "paymentPattern": "7C7CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                            "paymentScheduleMonthCount": "240",
+                            "paymentStartDate": {
+                                "value": "2010-05-01T00:00:00Z"
+                            },
+                            "paymentStatus": "Paid or paying as agreed",
+                            "portfolioType": 5,
+                            "remarks": [
+                                null
+                            ],
+                            "tradelineStatus": 2,
+                            "tradelineStatusCode": "11",
+                            "updateMethod": "manual"
+                        }
+                    ],
+                    "inFileDate": "1995-12-01T00:00:00Z",
+                    "inquiries": [
+                        {
+                            "ecoa": "Individual",
+                            "inquirer": {
+                                "code": "06376353",
+                                "industry": "Q",
+                                "industryCode": "Q",
+                                "name": "CU ANSWERS",
+                                "prefixCode": "06TR"
+                            },
+                            "inquiryDate": {
+                                "value": "2019-10-03T00:00:00Z"
+                            }
+                        }
+                    ],
+                    "messages": [
+                        {
+                            "code": "9999",
+                            "message": "HIGH RISK FRAUD ALERT SYSTEM ACCESS NOT AUTHORIZED",
+                            "messageType": 1
+                        }
+                    ],
+                    "mismatchReasons": [],
+                    "publicRecords": [],
+                    "scoreModels": [
+                        {
+                            "factors": [
+                                {
+                                    "code": "039",
+                                    "name": "Serious delinquency",
+                                    "rank": "1"
+                                },
+                                {
+                                    "code": "027",
+                                    "name": "Too few accounts currently paid as agreed",
+                                    "rank": "2"
+                                },
+                                {
+                                    "code": "004",
+                                    "name": "Lack of recent installment loan information",
+                                    "rank": "3"
+                                },
+                                {
+                                    "code": "010",
+                                    "name": "Proportion of balances to credit limits is too high on bank revolving or other revolving accounts",
+                                    "rank": "4"
+                                }
+                            ],
+                            "score": 701,
+                            "serviceCode": "00Q88",
+                            "serviceName": "FICO Score 8"
+                        }
+                    ]
+                },
+                "employments": [
+                    {
+                        "dateOnFileSince": {
+                            "value": "2008-11-01T00:00:00Z"
+                        },
+                        "employer": "EMPLOYER X",
+                        "occupation": "DIETARY DIRECTOR"
+                    }
+                ],
+                "firstName": "FRANCISCA",
+                "isPrimary": true,
+                "lastName": "GONZALEZ",
+                "middleName": "A",
+                "taxId": "666795320"
+            }
+        ],
+        "creditBureauName": "TransUnion",
+        "timestamp": "2019-10-03T21:26:34.634Z"
+    },
+    "statusCode": 200,
+    "transactionId": "97275268-0f0e-423a-f143-08d74111ada8"
+}
