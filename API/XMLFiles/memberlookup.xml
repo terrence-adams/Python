@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:com="http://www.symxchange.generated.symitar.com/v1/common/dto/common" xmlns:fin="http://www.symxchange.generated.symitar.com/v1/findby" p3:type="soapenv:FindBySsnRequestMessage" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+    <fin:findBySSN>
+      <Request com:MessageId="0">
+        <SSN>999999999</SSN>
+        <DeviceInformation DeviceType="SYNC1" DeviceNumber="20546" />
+        <Credentials com:ProcessorUser="0">
+          <AdministrativeCredentials>
+            <Password>!99SYNC1</Password>
+          </AdministrativeCredentials>
+        </Credentials>
+      </Request>
+    </fin:findBySSN>
+  </soapenv:Body>
+</soapenv:Envelope>

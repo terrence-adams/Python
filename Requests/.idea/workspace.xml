@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a684f6e8-4a33-44c9-9686-3cca3a0d5717" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../API/ApiHelpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/CMGPaxApi/CMGPaxApi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/CMGPaxApi/cmgpaxbody1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/CMGPaxApi/header.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/CMGPaxApi/response1028125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/CMGPaxApi/response10296875.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/CMGPaxApi/response103125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/CMGPaxApi/response10328125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/0.28125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/0.28125.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/0.3125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/0.359375.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/0.375.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/0.421875.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/0.421875.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/0.46875.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/12.384086108.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/16.35451887.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/19.426544524.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/2.406977126.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/23.328862998.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/27.344931086.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/5.776143773.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/8.825627374.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/sync1_tu_sample_request.json028125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/sync1_tu_sample_request.json0328125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/JsonFiles/sync1_tu_sample_request.json0390625.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../API/RequestAlpha.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../API/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/RequestAlpha.py" beforeDir="false" afterPath="$PROJECT_DIR$/../API/RequestAlpha.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -160,6 +133,7 @@
       <workItem from="1568673053376" duration="8058000" />
       <workItem from="1568818680702" duration="21518000" />
       <workItem from="1570133842934" duration="2744000" />
+      <workItem from="1570199569677" duration="1935000" />
     </task>
     <servers />
   </component>

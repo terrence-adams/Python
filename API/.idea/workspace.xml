@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d72788f-6bb1-442b-b054-e12c60d4255f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ApiHelpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMGPaxApi/CMGPaxApi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMGPaxApi/cmgpaxbody1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMGPaxApi/header.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMGPaxApi/response1028125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMGPaxApi/response10296875.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMGPaxApi/response10328125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/0.28125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/0.28125.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/0.3125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/0.359375.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/0.375.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/0.421875.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/0.421875.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/0.46875.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/12.384086108.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/16.35451887.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/19.426544524.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/2.406977126.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/23.328862998.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/27.344931086.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/5.776143773.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/8.825627374.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/sync1_tu_sample_request.json028125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/sync1_tu_sample_request.json0328125.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/sync1_tu_sample_request.json0390625.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestAlpha.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RequestAlpha.py" beforeDir="false" afterPath="$PROJECT_DIR$/RequestAlpha.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Requests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Requests/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +30,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -76,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CMGPaxApi">
+  <component name="RunManager" selected="Python.RequestAlpha">
     <configuration name="CMGPaxApi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="API" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.CMGPaxApi" />
         <item itemvalue="Python.RequestAlpha" />
+        <item itemvalue="Python.CMGPaxApi" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +114,7 @@
       <updated>1570052197233</updated>
       <workItem from="1570052198855" duration="14225000" />
       <workItem from="1570133894520" duration="9404000" />
+      <workItem from="1570199569337" duration="7696000" />
     </task>
     <servers />
   </component>
@@ -161,6 +136,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/API$CMGPaxApi.coverage" NAME="CMGPaxApi Coverage Results" MODIFIED="1570143284191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CMGPaxApi" />
-    <SUITE FILE_PATH="coverage/API$RequestAlpha.coverage" NAME="RequestAlpha Coverage Results" MODIFIED="1570138135840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/API$RequestAlpha.coverage" NAME="RequestAlpha Coverage Results" MODIFIED="1570224405142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

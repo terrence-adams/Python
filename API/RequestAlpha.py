@@ -4,6 +4,7 @@ import requests
 import json
 import io
 import time
+import xml.etree.ElementTree as ET
 
 
 class RequestAlpha:
@@ -72,9 +73,44 @@ class RequestAlpha:
         with open(file_name, 'w') as file1:
             # file1.write(json.dumps(response_body, indent=4, sort_keys=True))
             file1.write(json.dumps(response_body, indent=4, sort_keys=True))
-            
+
+
+    #looping through and exploring the xml for symitar
+    def import_xml(self):
+        tree = ET.parse('XMLFiles/memberlookup.xml')
+        root = tree.getroot()
+
+        print(ET.dump(tree))
+        print(root[0])
+        print(root[0][0])
+        print(root[0][0][0])
+        print(root[0][0][0][0].text)
+        root[0][0][0][0].text = '785456789'
+        root[0][0][0][0].set('updated', 'yes')
+        print(root[0][0][0][0].text)
+        print(root[0][0])
+        print(dir(root[0]))
+        #print(root.findall("."))
+        print(root[0][0][0][1].attrib)
+
+        for e in root:
+            print(e)
+            for f in e:
+                print(f)
+                for g in f:
+                    print(g)
+                    for h in g:
+                        print(h.attrib)
+                        for i in h:
+                            print(i)
+                            for j in i:
+                                print(j.text)
+
+
+
 
 
 if __name__ == '__main__':
     reqA = RequestAlpha()
-    reqA.create_multiple_submissions(3)
+    #reqA.create_multiple_submissions(3)
+    reqA.import_xml()
