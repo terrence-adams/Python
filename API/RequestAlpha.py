@@ -80,18 +80,18 @@ class RequestAlpha:
         tree = ET.parse('XMLFiles/memberlookup.xml')
         root = tree.getroot()
 
-        print(ET.dump(tree))
-        print(root[0])
-        print(root[0][0])
-        print(root[0][0][0])
-        print(root[0][0][0][0].text)
-        root[0][0][0][0].text = '785456789'
-        root[0][0][0][0].set('updated', 'yes')
-        print(root[0][0][0][0].text)
-        print(root[0][0])
-        print(dir(root[0]))
-        #print(root.findall("."))
-        print(root[0][0][0][1].attrib)
+        #print(ET.dump(tree))
+        
+        for t in tree.iter():
+            print(t)
+        #print(tree['SSN'])
+        print("_" * 102)
+
+        for t in root.itertext():
+            if t == None:
+                pass
+
+            print(t.strip())
 
         for e in root:
             print(e)
