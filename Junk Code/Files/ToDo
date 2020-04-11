@@ -1,0 +1,16 @@
+TASKS:
+
+Connect to Database
+
+Upload CSV
+
+parse out data into elements
+
+map elements per row to columns
+
+write to database
+
+Create test user class
+
+Map to Test user Class
+
