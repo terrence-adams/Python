@@ -79,7 +79,7 @@ class CreditServices:
 
 
     def create_send_post(self):
-        self.body = self.load_json_from_file('sync1_tu_sample_request.json')
+        self.body = self.load_json_from_file('Files/sync1_tu_sample_request.json')
         self.header = self.set_and_return_header()
         print(self.body)
         post_resp= cs.session.post(self.preview_credit_url, data=self.body, headers=self.header)

@@ -62,7 +62,7 @@ class Post:
 
     @classmethod
     def create_send_post(self):
-        self.body = self.load_json_from_file('sync1_tu_sample_request.json')
+        self.body = self.load_json_from_file('Files/sync1_tu_sample_request.json')
         self.header = self.set_and_return_header(self)
 
         self.credit_response =  requests.post(self.preview_credit_url,
