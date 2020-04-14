@@ -1,7 +1,12 @@
 import requests
 import json
 
+"""
+This is a class for Credit Services api being built
+it is current returning a 400
+needs to be debugged
 
+"""
 class CreditServices:
     login_url = 'https://dev.sync1creditservices.com/api/Login'
     preview_login_url = 'https://preview.sync1creditservices.com/api/Login'
@@ -26,7 +31,7 @@ class CreditServices:
         self.session = requests.Session()
         self.login = self.session.post(self.preview_login_url,
                                  headers={'Content-type': 'application/json-patch+json', 'accept': 'text/plain'},
-                                 json={'username': 'sync1@cuanswers.com', 'password': 'Testsync1'})
+                                 json={'username': 'sync1@cuanswers.com', 'password': 'Sync1test2'})
         self.resp_dict = json.loads(self.login.text)
         self.token = self.resp_dict['token']['access_token']
         self.header = self.login.headers
